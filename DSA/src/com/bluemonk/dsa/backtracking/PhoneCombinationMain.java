@@ -8,9 +8,7 @@ public class PhoneCombinationMain {
 	public static void main(String[] args) {
 		SolutionPhoneCombo sol = new SolutionPhoneCombo();
 		sol.letterCombinationsWithIteration("234").forEach(System.out::println);
-
 	}
-
 }
 
 class SolutionPhoneCombo {
